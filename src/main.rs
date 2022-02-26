@@ -45,7 +45,7 @@ fn main() -> ! {
     loop {
         led.set_high().unwrap();
         delay.delay_ms(500);
-        led.set_high().unwrap();
+        led.set_low().unwrap();
         delay.delay_ms(500);
     }
 }
